@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "APS Lab | Medical & Laboratory Equipment Manufacturer, Supplier, Exporter",
+  title: "TRIANGLE FLAG | Manufacturer, Supplier, Exporter in India",
   description: "APS Lab is a leading manufacturer, supplier, and exporter of medical and laboratory equipment in India. We provide high-quality products including deep freezers, autoclaves, hospital furniture, OT lights, and more. Serving Delhi, Lucknow, Kolkata, Hyderabad, Chennai, and all major cities.",
   keywords: [
     "APS Lab",

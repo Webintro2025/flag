@@ -122,13 +122,13 @@ Tirangaarmystore@gmail.com           </span>
             <ul
               className={`flex flex-col lg:flex-row lg:space-x-12 xl:space-x-16 text-base font-semibold w-full lg:w-auto lg:justify-center lg:items-center ${
                 isMobileMenuOpen ? 'flex text-white' : 'hidden lg:flex' 
-              } mt-0 lg:mt-0 bg-[#23286b] lg:bg-transparent absolute lg:static top-full left-0 lg:transform-none ${
-                isSticky ? 'bg-[#23286b]' : ''
+              } mt-0 lg:mt-0 bg-white lg:bg-transparent absolute lg:static top-full left-0 lg:transform-none ${
+                isSticky ? 'bg-white' : ''
               } lg:flex-row`}>
               {/* ...existing code... */}
               <li className="w-full lg:w-auto flex  justify-start lg:flex-row">
                 <a
-                  className={`block px-4 py-2 sm:p-0 relative border-b-2 border-[#2c328f] sm:border-b-2 sm:pb-1 transition-all duration-500 text-black`}
+                  className={`block px-4 py-2 sm:p-0 relative sm:border-b-2 sm:pb-1 transition-all duration-500 text-black`}
                   href="/"
                   style={{ color: 'black' }}
                   onClick={() => setIsMobileMenuOpen(false)}
