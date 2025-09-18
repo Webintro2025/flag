@@ -13,7 +13,7 @@ const Footer = () => {
         </a>
         <a href="/" className="cursor-pointer">
           <h4 className="text-3xl font-extrabold leading-none tracking-wide text-black animate-fadein hover:text-orange-600 transition-colors duration-200">
-          TRIANGA ARMY STORE
+          TIRANGA ARMY STORE
           </h4>
         </a>
         <p className="text-xs md:text-sm max-w-[280px] text-black">
