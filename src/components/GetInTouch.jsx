@@ -17,7 +17,7 @@ const GetInTouch = () => {
               </span>
               <div>
                 <div className="text-black font-semibold text-xs sm:text-sm">
-                  APS LAB INSTRUMENTS PVT LTD DELHI
+                  TRIANGA ARMY STORE
                 </div>
                 <div className="text-black font-bold text-sm sm:text-base md:text-lg">
                   Near Bharat Model School,Sunami Gate,Malerkotla,Sangrur, Sangrur- 148023, Punjab, India

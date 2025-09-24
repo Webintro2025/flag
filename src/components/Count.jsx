@@ -16,21 +16,21 @@ const statsData = [
     number: 5,
     suffix: '+',
     title: 'Years Experience',
-    description: 'Since 2019 establishment'
+    description: 'Since 2020 establishment'
   },
   {
     icon: <FaTools className="text-xl text-blue-900" />, // Equipment Types
     number: 100,
     suffix: '+',
-    title: 'Equipment Types',
-    description: 'Medical & laboratory instruments'
+    title: 'Flags Types',
+    description: 'Different types of flags available'
   },
   {
     icon: <FaHandshake className="text-xl text-blue-900" />, // Projects Completed
     number: 50,
     suffix: '+',
     title: 'Projects Completed',
-    description: 'Successful installations'
+    description: 'Successful Flags&Caps delivered'
   }
 ];
 
@@ -154,7 +154,7 @@ const Count = () => {
             Our <span className="text-black">Achievements</span>
           </h2>
           <p className="text-sm sm:text-base md:text-xl text-black max-w-2xl mx-auto">
-            Numbers that speak for our commitment to excellence in medical equipment manufacturing
+            Number of satisfied clients and successful projects
           </p>
         </motion.div>
 
@@ -227,7 +227,7 @@ const Count = () => {
           transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
         >
           <p className="text-xs sm:text-sm md:text-lg text-black mb-6">
-            Trusted by hospitals, laboratories, and research institutions across India
+          Trusted by numerous clients across India for quality flags and caps
           </p>
           <div className="flex justify-center items-center space-x-4 sm:space-x-6 md:space-x-8 opacity-70">
             <motion.div 
@@ -236,7 +236,7 @@ const Count = () => {
               transition={{ duration: 0.2 }}
             >
               <i className="fas fa-hospital text-lg sm:text-xl md:text-2xl" style={{ color: 'black' }}></i>
-              <p className="text-[10px] sm:text-xs mt-1 text-black">Hospitals</p>
+              <p className="text-[10px] sm:text-xs mt-1 text-black">Flags</p>
             </motion.div>
             <motion.div 
               className="text-black/60"
@@ -244,7 +244,7 @@ const Count = () => {
               transition={{ duration: 0.2 }}
             >
               <i className="fas fa-flask text-lg sm:text-xl md:text-2xl" style={{ color: 'black' }}></i>
-              <p className="text-[10px] sm:text-xs mt-1 text-black">Labs</p>
+              <p className="text-[10px] sm:text-xs mt-1 text-black">Caps</p>
             </motion.div>
             <motion.div 
               className="text-black/60"
@@ -252,7 +252,7 @@ const Count = () => {
               transition={{ duration: 0.2 }}
             >
               <i className="fas fa-university text-lg sm:text-xl md:text-2xl" style={{ color: 'black' }}></i>
-              <p className="text-[10px] sm:text-xs mt-1 text-black">Universities</p>
+              <p className="text-[10px] sm:text-xs mt-1 text-black">Military Flags</p>
             </motion.div>
             <motion.div 
               className="text-black/60"
