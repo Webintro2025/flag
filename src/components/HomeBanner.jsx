@@ -1,46 +1,101 @@
 "use client";
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const images = ['/banner.jpg',];
+const desktopBanners = [
+  "/banner.jpg",
+
+];
+
+const mobileBanners = [
+  "/bannerM.jpg",
+];
 
 const HomeBanner = () => {
-  const [current, setCurrent] = useState(0);
-  const timeoutRef = useRef(null);
-
-  const nextSlide = () => setCurrent((prev) => (prev + 1) % images.length);
-  const prevSlide = () => setCurrent((prev) => (prev - 1 + images.length) % images.length);
+  const [index, setIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+  
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   useEffect(() => {
-    timeoutRef.current = setTimeout(nextSlide, 3500);
-    return () => clearTimeout(timeoutRef.current);
-  }, [current]);
+    const timer = setInterval(() => {
+      setIndex((prev) => {
+        const arr = isMobile ? mobileBanners : desktopBanners;
+        return (prev + 1) % arr.length;
+      });
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [isMobile]);
+
+  const banners = isMobile ? mobileBanners : desktopBanners;
 
   return (
-  <div className="w-full relative overflow-hidden h-[180px] sm:h-[260px] md:h-[400px] lg:h-[550px] bg-gray-100 border border-blue-300">
-      {images.map((img, idx) => (
-        <img
-          key={img}
-          src={img}
-          alt="banner"
-          className={`w-full h-full absolute top-0 left-0 transition-opacity duration-700 ${idx === current ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
-          style={{ objectFit: 'cover' }}
-        />
-      ))}
-      {/* Arrows */}
-      <button
-        onClick={prevSlide}
-        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white text-blue-900 rounded-full p-1 sm:p-2 shadow-md z-20"
-        aria-label="Previous slide"
-      >
-        <svg width="18" height="18" className="sm:w-6 sm:h-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white text-blue-900 rounded-full p-1 sm:p-2 shadow-md z-20"
-        aria-label="Next slide"
-      >
-        <svg width="18" height="18" className="sm:w-6 sm:h-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 6l6 6-6 6"/></svg>
-      </button>
+    <div className="relative w-full  overflow-hidden">
+      {/* Mobile Banner */}
+      <div className="md:hidden">
+        <div 
+          className="relative w-full"
+          style={{ 
+            minHeight: '250px',
+            height: '50vw',
+            maxHeight: '500px'
+          }}
+        >
+          {mobileBanners.map((src, i) => (
+            <img
+              key={`mobile-${src}`}
+              src={src}
+              alt={`Mobile Banner ${i + 1}`}
+              className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ${
+                index === i ? 'opacity-100 z-10' : 'opacity-0 z-0'
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Desktop Banner */}
+      <div className="hidden md:block">
+        <div 
+          className="relative w-full"
+          style={{ 
+            minHeight: '550px',
+            height: '65vh',
+            maxHeight: '850px'
+          }}
+        >
+          {desktopBanners.map((src, i) => (
+            <img
+              key={`desktop-${src}`}
+              src={src}
+              alt={`Desktop Banner ${i + 1}`}
+              className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ${
+                index === i ? 'opacity-100 z-10' : 'opacity-0 z-0'
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Navigation Dots */}
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
+        {banners.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => setIndex(i)}
+            className={`w-3 h-3 rounded-full border-2 transition-all duration-300 focus:outline-none ${
+              index === i 
+                ? 'bg-[#449833] border-[#449833] scale-125' 
+                : 'bg-white/70 border-white hover:bg-white'
+            }`}
+            aria-label={`Go to slide ${i + 1}`}
+          />
+        ))}
+      </div>
     </div>
   );
 };

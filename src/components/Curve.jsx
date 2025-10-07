@@ -53,10 +53,8 @@ const Curve = () => {
       <div className="flex flex-col md:flex-row items-center justify-center min-h-screen">
         {/* Left side with curved right border */}
         <div
-          className="relative w-full md:w-1/2 flex flex-col justify-center rounded-r-full items-center text-center px-4 sm:px-6 py-8 sm:py-12 md:py-24"
-          style={{
-            background: 'linear-gradient(90deg, #FF9800 0%, #FFFFFF 50%, #1B5E20 100%)',
-          }}
+          className="relative w-full md:w-1/2 flex  bg-[#FCC870] flex-col justify-center rounded-r-full items-center text-center px-4 sm:px-6 py-8 sm:py-12 md:py-24"
+        
         >
           <motion.div 
             className="max-w-md space-y-8 sm:space-y-10"
@@ -155,11 +153,9 @@ const Curve = () => {
           />
         </motion.div>
         {/* Right side with curved left border */}
-        <div
-          className="relative w-full rounded-l-full md:w-1/2 flex flex-col justify-center items-center text-center px-4 sm:px-6 py-8 sm:py-12 md:py-24"
-          style={{
-            background: 'linear-gradient(270deg, #FF9800 0%, #FFFFFF 50%, #1B5E20 100%)',
-          }}
+        <div 
+          className="relative w-full rounded-l-full bg-[#FCC870] md:w-1/2 flex flex-col justify-center items-center text-center px-4 sm:px-6 py-8 sm:py-12 md:py-24"
+        
         >
           <motion.div 
             className="max-w-md space-y-8 sm:space-y-10"

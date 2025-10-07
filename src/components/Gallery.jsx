@@ -139,7 +139,7 @@ const Gallery = () => {
   };
 
   return (
-  <section className="py-16 px-2 sm:px-4 md:px-8 min-h-screen" style={{ background: 'linear-gradient(90deg, #FFE5B4 0%, #FFFFFF 50%, #DFFFD6 100%)' }}>
+  <section className="py-16 px-2 sm:px-4 md:px-8 bg-[#2A4D35] min-h-screen">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div 
@@ -148,10 +148,10 @@ const Gallery = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gray-50">
             OUR GALLERY
           </h2>
-          <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base md:text-lg text-white max-w-2xl mx-auto">
             Explore our comprehensive range of military and ceremonial products designed for quality, durability, and aesthetic appeal. 
           </p>
         </motion.div>
@@ -213,7 +213,7 @@ const Gallery = () => {
         {!showAll && galleryImages.length > 15 && (
           <div className="flex justify-center mt-8">
             <button
-              className="px-6 py-3 bg-gradient-to-r from-orange-300 via-white to-green-300 text-[#23286b] font-bold rounded-full shadow-lg hover:scale-105 transition-transform duration-300 border border-gray-300"
+              className="px-6 py-3 bg-white text-[#23286b] font-bold rounded-full shadow-lg hover:scale-105 transition-transform duration-300 border border-gray-300"
               onClick={() => setShowAll(true)}
             >
               More Products

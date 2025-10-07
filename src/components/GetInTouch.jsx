@@ -10,14 +10,14 @@ const GetInTouch = () => {
           <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold text-black mb-5 sm:mb-8 text-left">
             Contact Information
           </h2>
-          <div className="bg-gradient-to-br from-orange-400 via-white to-green-700 border-l-4 sm:border-l-8 border-orange-500 shadow-xl rounded-2xl p-4 sm:p-6 md:p-10 max-w-xl mx-auto flex flex-col gap-4 sm:gap-7 animate-fadein">
+          <div className="bg-[#78B485] border-l-4 sm:border-l-8 border-orange-500 shadow-xl rounded-2xl p-4 sm:p-6 md:p-10 max-w-xl mx-auto flex flex-col gap-4 sm:gap-7 animate-fadein">
             <div className="flex items-center gap-3 sm:gap-4 group">
               <span className="bg-green-700 text-orange-400 rounded-full p-2 sm:p-3 text-base sm:text-xl transition-transform duration-300 group-hover:scale-110 animate-bounce">
                 <i className="fas fa-building"></i>
               </span>
               <div>
                 <div className="text-black font-semibold text-xs sm:text-sm">
-                  TRIANGA ARMY STORE
+                  MAJID MILITARY STORE
                 </div>
                 <div className="text-black font-bold text-sm sm:text-base md:text-lg">
                   Near Bharat Model School,Sunami Gate,Malerkotla,Sangrur, Sangrur- 148023, Punjab, India
@@ -59,7 +59,7 @@ const GetInTouch = () => {
                   Mail
                 </div>
                 <div className="text-black font-bold text-sm sm:text-base md:text-lg transition-colors duration-300 group-hover:text-orange-400">
-                  <a href="mailto:Tirangaarmystore@gmail.com" className="hover:underline hover:text-orange-400 transition-colors duration-200">Tirangaarmystore@gmail.com</a>
+                  <a href="mailto:Majidmilitarystore@gmail.com" className="hover:underline hover:text-orange-400 transition-colors duration-200">Majidmilitarystore@gmail.com</a>
                 </div>
               </div>
             </div>
@@ -75,14 +75,14 @@ const GetInTouch = () => {
           <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold text-gray-900 mb-4 sm:mb-6">
             Get In Touch
           </h2>
-          <div className="bg-gradient-to-br from-orange-400 via-white to-green-700 p-4 sm:p-8 border mt-16 border-orange-200 max-w-lg">
+          <div className="bg-[#78B485] p-4 sm:p-8 border mt-16 border-orange-200 max-w-lg">
             <ContactForm />
           </div>
         </div>
       </div>
 
       {/* Bottom Banner */}
-  <section className="bg-gradient-to-r from-orange-400 via-white to-green-700 py-4 sm:py-6 px-2 sm:px-6 mt-8 sm:mt-12">
+  <section className="bg-[#78B485] py-4 sm:py-6 px-2 sm:px-6 mt-8 sm:mt-12">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
           <p className="text-black text-sm sm:text-lg font-light max-w-xl text-center sm:text-left">
             If You Need Any Industrial Solution{" "}

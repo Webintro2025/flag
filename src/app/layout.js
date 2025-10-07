@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "TRIANGLE FLAG | Manufacturer, Supplier, Exporter in India",
+  title: "Majid Military Store | Indian Army & Military Supplies",
   description: "APS Lab is a leading manufacturer, supplier, and exporter of medical and laboratory equipment in India. We provide high-quality products including deep freezers, autoclaves, hospital furniture, OT lights, and more. Serving Delhi, Lucknow, Kolkata, Hyderabad, Chennai, and all major cities.",
   keywords: [
     "APS Lab",

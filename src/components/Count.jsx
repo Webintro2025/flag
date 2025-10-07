@@ -138,7 +138,7 @@ const Count = () => {
   };
 
   return (
-  <section className="w-full py-10 px-2 sm:px-4 md:px-8 bg-gradient-to-r from-green-700 via-orange-400 to-white relative overflow-hidden">
+  <section className="w-full py-10 px-2 sm:px-4 md:px-8 bg-[#195B2A] relative overflow-hidden">
       {/* Background Pattern */}
       {/* Remove blue background pattern for clarity with new gradient */}
 
@@ -153,7 +153,7 @@ const Count = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-4">
             Our <span className="text-black">Achievements</span>
           </h2>
-          <p className="text-sm sm:text-base md:text-xl text-black max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base md:text-xl text-white max-w-2xl mx-auto">
             Number of satisfied clients and successful projects
           </p>
         </motion.div>
@@ -172,7 +172,7 @@ const Count = () => {
               variants={itemVariants}
               whileHover="hover"
             >
-              <div className="bg-white/80 rounded-2xl p-8 text-center border border-black/20 shadow-2xl hover:bg-white transition-all duration-300">
+              <div className="bg-white/80 rounded-2xl p-8 text-center border border-black/20 shadow-2xl hover:bg-white  hover:text-black transition-all duration-300">
                 {/* Icon */}
                 <motion.div 
                   className="w-12 h-12 mx-auto mb-4 bg-white rounded-full flex items-center justify-center shadow-md border border-black"
@@ -226,7 +226,7 @@ const Count = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
         >
-          <p className="text-xs sm:text-sm md:text-lg text-black mb-6">
+          <p className="text-xs sm:text-sm md:text-lg text-white mb-6">
           Trusted by numerous clients across India for quality flags and caps
           </p>
           <div className="flex justify-center items-center space-x-4 sm:space-x-6 md:space-x-8 opacity-70">
@@ -236,7 +236,7 @@ const Count = () => {
               transition={{ duration: 0.2 }}
             >
               <i className="fas fa-hospital text-lg sm:text-xl md:text-2xl" style={{ color: 'black' }}></i>
-              <p className="text-[10px] sm:text-xs mt-1 text-black">Flags</p>
+              <p className="text-[10px] sm:text-xs mt-1 text-white">Flags</p>
             </motion.div>
             <motion.div 
               className="text-black/60"
@@ -244,7 +244,7 @@ const Count = () => {
               transition={{ duration: 0.2 }}
             >
               <i className="fas fa-flask text-lg sm:text-xl md:text-2xl" style={{ color: 'black' }}></i>
-              <p className="text-[10px] sm:text-xs mt-1 text-black">Caps</p>
+              <p className="text-[10px] sm:text-xs mt-1 text-white">Caps</p>
             </motion.div>
             <motion.div 
               className="text-black/60"
@@ -252,7 +252,7 @@ const Count = () => {
               transition={{ duration: 0.2 }}
             >
               <i className="fas fa-university text-lg sm:text-xl md:text-2xl" style={{ color: 'black' }}></i>
-              <p className="text-[10px] sm:text-xs mt-1 text-black">Military Flags</p>
+              <p className="text-[10px] sm:text-xs mt-1 text-white">Military Flags</p>
             </motion.div>
             <motion.div 
               className="text-black/60"
@@ -260,7 +260,7 @@ const Count = () => {
               transition={{ duration: 0.2 }}
             >
               <i className="fas fa-microscope text-lg sm:text-xl md:text-2xl" style={{ color: 'black' }}></i>
-              <p className="text-[10px] sm:text-xs mt-1 text-black">Research</p>
+              <p className="text-[10px] sm:text-xs mt-1 text-white">Research</p>
             </motion.div>
           </div>
         </motion.div>

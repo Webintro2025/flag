@@ -7,7 +7,7 @@ const ContactPage = () => {
     <>
       {/* Contact Us Heading Banner */}
       <div style={{
-        background: 'linear-gradient(90deg, orange 0%, white 50%, green 100%)',
+        background: '#FCC870',
         padding: '2rem 0',
         textAlign: 'center',
       }}>

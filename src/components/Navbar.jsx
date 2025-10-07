@@ -62,9 +62,9 @@ const Navbar = () => {
           <div className="flex items-center space-x-2 ml-auto">
             <i className="fas fa-envelope"></i>
             <span className="transition-all duration-300 text-black drop-shadow-md  cursor-pointer block lg:hidden">
-Tirangaarmystore@gmail.com            </span>
+Majidmilitarystore@gmail.com            </span>
             <span className="transition-all duration-300 text-black drop-shadow-md  cursor-pointer hidden lg:block">
-Tirangaarmystore@gmail.com           </span>
+Majidmilitarystore@gmail.com           </span>
           </div>
         </div>
         {/* Navigation bar */}
@@ -75,7 +75,7 @@ Tirangaarmystore@gmail.com           </span>
           style={{
             top: isSticky ? 0 : 'unset',
             left: 0,
-            background: isSticky ? 'linear-gradient(90deg, #FF9800 0%, #FFFFFF 50%, #388E3C 100%)' : 'transparent',
+            background: isSticky ? 'white' : 'transparent',
             boxShadow: '0 6px 24px 0 rgba(31,38,135,0.18), 0 4px 16px 0 rgba(0,0,0,0.10)', // Always show bottom shadow
             transform: isSticky ? 'translateY(0)' : 'translateY(0)',
             animation: isSticky ? 'slideDownNav 0.5s cubic-bezier(0.4,0,0.2,1)' : 'none',

@@ -43,7 +43,7 @@ const AboutPageClient = () => {
   return (
     <motion.div className="min-h-screen bg-gray-50" variants={pageVariants} initial="hidden" animate="visible">
       {/* ===== Hero Section ===== */}
-      <section className="relative bg-gradient-to-r from-orange-400 via-white to-green-700 py-20 px-4 overflow-hidden">
+      <section className="relative bg-[#FCC870] py-20 px-4 overflow-hidden">
         {/* Decorative Background */}
        
 
@@ -69,7 +69,7 @@ const AboutPageClient = () => {
          
 
           <motion.h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-black mb-4 sm:mb-6 leading-tight" variants={headerVariants}>
-            TRIANGA ARMY <span className="text-orange-500">STORE</span>
+            MAJID MILITARY <span className="text-orange-500">STORE</span>
             <br />
            
           </motion.h1>
@@ -78,7 +78,7 @@ const AboutPageClient = () => {
             className="text-base sm:text-xl md:text-2xl text-black max-w-4xl mx-auto leading-relaxed mb-6 sm:mb-8"
             variants={subtitleVariants}
           >
-            TRIANGA ARMY STORE is a trusted name in the field of national flags, military flags, and related accessories. With years of experience and a commitment to quality, we provide top-notch products that meet the highest standards.
+            MAJID MILITARY STORE is a trusted name in the field of national flags, military flags, and related accessories. With years of experience and a commitment to quality, we provide top-notch products that meet the highest standards.
           </motion.p>
         </div>
       </section>
