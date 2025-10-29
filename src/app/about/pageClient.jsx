@@ -69,7 +69,7 @@ const AboutPageClient = () => {
          
 
           <motion.h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-black mb-4 sm:mb-6 leading-tight" variants={headerVariants}>
-            MAJID MILITARY <span className="text-orange-500">STORE</span>
+            TIRANGA ARMY <span className="text-orange-500">STORE</span>
             <br />
            
           </motion.h1>
