@@ -13,7 +13,7 @@ const Footer = () => {
         </a>
         <a href="/" className="cursor-pointer">
           <h4 className="text-3xl font-extrabold leading-none tracking-wide text-black animate-fadein hover:text-orange-600 transition-colors duration-200">
-          MAJID MILITARY STORE
+          Tiranga Army Store
           </h4>
         </a>
         <p className="text-xs md:text-sm max-w-[280px] text-black">
@@ -116,7 +116,7 @@ const Footer = () => {
     </div>
 
     <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 text-center text-black text-xs md:text-sm font-serif">
-      © 2025 All Rights Reserved. MAJID MILITARY STORE. Developed & Managed By With
+      © 2025 All Rights Reserved. Tiranga Army Store. Developed & Managed By With
       <span className="text-orange-600">❤</span>
       <a href="https://webintro.in" target="_blank" className="text-orange-600 hover:underline" rel="noopener noreferrer">Webintro.in</a>,
       <a href="https://webintro.in/delhi/" target="_blank" className="text-orange-600 hover:underline" rel="noopener noreferrer">Google Promotion Services</a>

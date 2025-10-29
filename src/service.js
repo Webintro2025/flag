@@ -120,7 +120,7 @@ const serviceData = [
       "Material": "Polyester",
       "Color": "Red",
       "PackagingType": "Paket",
-      "Brand": "Majid Military Store",
+      "Brand": "Tiranga Army Store",
       "CountryOfOrigin": "Made in India",
   "image": "/Army Embroidered Flags.png"
     },

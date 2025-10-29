@@ -39,8 +39,42 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top bar */}
+      {/* Top ticker disclaimer */}
       {isSticky && <div style={{ height: 60 }}></div>}
+      <div className="w-full bg-black" style={{ zIndex: 60 }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <div className="text-white text-sm" style={{ height: 32, display: 'flex', alignItems: 'center', overflow: 'hidden' }}>
+            <div style={{ width: '100%', position: 'relative' }}>
+              <div className="ticker" style={{ display: 'inline-block', whiteSpace: 'nowrap', willChange: 'transform', animation: 'tickerScroll 16s linear infinite' }}>
+                <span style={{ paddingRight: '3rem' }}>TIRANGA ARMY STORE GST NO : 03BHOPT0049J1Z5 Legal Name of Business
+</span>
+                <span style={{ paddingRight: '3rem' }}>•</span>
+                <span style={{ paddingRight: '3rem' }}>TIRANGA ARMY STORE GST NO : 03BHOPT0049J1Z5 Legal Name of Business
+</span>
+                <span style={{ paddingRight: '3rem' }}>•</span>
+                <span style={{ paddingRight: '3rem' }}>TIRANGA ARMY STORE GST NO : 03BHOPT0049J1Z5 Legal Name of Business
+</span>
+                {/* duplicate for seamless loop */}
+                <span style={{ paddingRight: '3rem' }}>TIRANGA ARMY STORE GST NO : 03BHOPT0049J1Z5 Legal Name of Business
+</span>
+                <span style={{ paddingRight: '3rem' }}>•</span>
+                <span style={{ paddingRight: '3rem' }}>TIRANGA ARMY STORE GST NO : 03BHOPT0049J1Z5 Legal Name of Business
+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <style>{`
+          @keyframes tickerScroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+          .ticker { padding-left: 2rem; }
+          @media (max-width: 640px) {
+            .ticker { animation-duration: 12s !important; }
+          }
+        `}</style>
+      </div>
       <div className='h-auto'>
   <div className="bg-[#FCC870] text-black text-[11px] lg:text-base flex flex-row flex-wrap items-center px-2 lg:px-10 py-2 gap-x-3 gap-y-1">
           <div className="flex items-center space-x-1 sm:space-x-2 hidden lg:flex">

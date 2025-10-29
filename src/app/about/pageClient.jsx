@@ -78,7 +78,7 @@ const AboutPageClient = () => {
             className="text-base sm:text-xl md:text-2xl text-black max-w-4xl mx-auto leading-relaxed mb-6 sm:mb-8"
             variants={subtitleVariants}
           >
-            MAJID MILITARY STORE is a trusted name in the field of national flags, military flags, and related accessories. With years of experience and a commitment to quality, we provide top-notch products that meet the highest standards.
+            Tiranga Army Store is a trusted name in the field of national flags, military flags, and related accessories. With years of experience and a commitment to quality, we provide top-notch products that meet the highest standards.
           </motion.p>
         </div>
       </section>
