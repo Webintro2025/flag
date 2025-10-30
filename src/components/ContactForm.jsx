@@ -22,7 +22,7 @@ const ContactForm = () => {
     setSuccess(null);
     setError(null);
     try {
-      const res = await fetch("/api/sitemap/send-email", {
+  const res = await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form)
