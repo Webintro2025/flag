@@ -142,7 +142,7 @@ export default function LocationPage({ params }) {
           alt={`T Flag Manufacturers in ${locationName}`}
           className="object-cover rounded-lg w-full max-w-[350px] xs:max-w-[400px] sm:max-w-[450px] md:max-w-[500px] h-auto shadow"
           height={500}
-          src="/National flag cotton.jpg"
+          src="/Brass T Rode Flag Stand.png"
           width={500}
         />
       </div>
