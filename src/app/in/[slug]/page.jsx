@@ -102,10 +102,10 @@ export default function LocationPage({ params }) {
 <div className="relative w-full bg-[#FCC870] h-[160px] xs:h-[260px] sm:h-[220px] md:h-[220px] lg:h-[320px] xl:h-[420px]">
 
   <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-2 xs:px-4 sm:px-6 md:px-8 lg:px-10 xl:px-10">
-    <h1 className="text-white font-serif text-sm xs:text-base sm:text-xl md:text-2xl lg:text-2xl xl:text-5xl leading-tight drop-shadow-md">
+    <h1 className="text-black font-serif text-sm xs:text-base sm:text-xl md:text-2xl lg:text-2xl xl:text-5xl leading-tight drop-shadow-md">
       T Flag Manufacturers in {locationName}
     </h1>
-    <p className="text-white font-medium text-[10px] xs:text-xs sm:text-sm md:text-base mt-2 sm:mt-4 max-w-xs xs:max-w-md sm:max-w-2xl md:max-w-3xl lg:max-w-4xl drop-shadow">
+    <p className="text-black font-medium text-[10px] xs:text-xs sm:text-sm md:text-base mt-2 sm:mt-4 max-w-xs xs:max-w-md sm:max-w-2xl md:max-w-3xl lg:max-w-4xl drop-shadow">
       Welcome To <a href="https://www.majidstore.co.in/">Tiranga Army Store</a>, If You Are Looking For <strong>T Flag Manufacturers in {locationName}</strong>, We Are The Best Option For You. We Manufacture <strong>Best T Flag in {locationName}</strong>, National Flag Manufacturers in {locationName}, Conical Flag Stand Manufacturers in {locationName}, India.
     </p>
     <button
