@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 const GetInTouch = () => {
   return (
-    <section className="max-w-7xl mx-auto px-2 sm:px-4 py-8 sm:py-10 bg-white">
+    <section id="get-in-touch" tabIndex={-1} className="max-w-7xl mx-auto px-2 sm:px-4 py-8 sm:py-10 bg-white">
       <div className="flex flex-col lg:flex-row gap-8 sm:gap-10">
         {/* Contact Info Section */}
         <div className="lg:w-1/2 flex flex-col justify-center">
@@ -46,7 +46,7 @@ const GetInTouch = () => {
                   Call/Whatsapp
                 </div>
                 <div className="text-black font-bold text-sm sm:text-base md:text-lg transition-colors duration-300 group-hover:text-orange-400">
-                  <a href="tel:+919899239541" className="hover:underline hover:text-orange-400 transition-colors duration-200">+91-9899239541</a> / 
+                  <a href="tel:+91-7888309215" className="hover:underline hover:text-orange-400 transition-colors duration-200">+91-7888309215 / +91-9914511239</a> 
                 </div>
               </div>
             </div>

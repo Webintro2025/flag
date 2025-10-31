@@ -1,3 +1,5 @@
+import GetInTouch from '@/components/GetInTouch';
+import EnquiryNow from '@/components/EnquiryNow';
 import serviceData from '../../service';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -21,6 +23,7 @@ export default function ServicePage({ params }) {
 	const items = serviceObj[serviceName];
 
 	return (
+		<>
 		<div style={{ padding: '2rem' }}>
 					<h1
 						style={{
@@ -54,9 +57,15 @@ export default function ServicePage({ params }) {
 								</li>
 							))}
 						</ul>
+						{/* Enquiry button that scrolls down to the contact form */}
+						<div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+							<EnquiryNow />
+						</div>
 					</div>
 				))}
 			</div>
 		</div>
+		<GetInTouch />
+		</>
 	);
 }
