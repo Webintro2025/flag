@@ -33,7 +33,7 @@ const GetInTouch = () => {
                   GST Number
                 </div>
                 <div className="text-black font-bold text-sm sm:text-base md:text-lg">
-                  3BHOPT0049J1Z5
+                  03BHOPT0049J1Z5
                 </div>
               </div>
             </div>
