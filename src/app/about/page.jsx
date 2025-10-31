@@ -3,35 +3,37 @@
 // SEO metadata for About page
 export const metadata = {
   alternates: {
-    canonical: "https://apsinstrument.in/about",
+    canonical: "https://majidstore.co.in/about",
   },
-  title: "About APS Lab | Leading Medical & Laboratory Equipment Manufacturer in India",
+  title: "About Tiranga Army Store | National Flags, Military & Ceremonial Supplies",
   description:
-    "Learn about APS Lab, a top manufacturer, supplier, and exporter of medical and laboratory equipment in India. Discover our mission, vision, and commitment to quality in healthcare and research solutions.",
+    "Tiranga Army Store (Majid Store) manufactures and supplies national flags, military flags, ceremonial pagris, caps, badges, flag stands and custom flag solutions across India. We accept bulk and custom orders for government, institutions, and retailers. GST: 03BHOPT0049J1Z5.",
   keywords: [
-    "APS Lab",
-    "About APS Lab",
-    "Medical Equipment Manufacturer",
-    "Laboratory Equipment Supplier",
-    "Exporter",
-    "Healthcare Solutions",
-    "Research Equipment",
+    "Tiranga Army Store",
+    "Majid Store",
+    "National Flags",
+    "T Flags",
+    "Military Flags",
+    "Flag Manufacturers",
+    "Ceremonial Pagri",
+    "Military Caps",
+    "Flag Stands",
+    "Custom Flags",
     "India",
-    "Delhi",
-    "Quality Medical Devices",
+    "Flags Supplier",
   ],
   openGraph: {
-    title: "About APS Lab | Leading Medical & Laboratory Equipment Manufacturer in India",
+    title: "About Tiranga Army Store | National Flags & Military Supplies",
     description:
-      "Learn about APS Lab, a top manufacturer, supplier, and exporter of medical and laboratory equipment in India. Discover our mission, vision, and commitment to quality in healthcare and research solutions.",
-    url: "https://apsinstrument.in/about",
-    siteName: "APS Lab",
+      "Tiranga Army Store (Majid Store) provides high-quality national and military flags, ceremonial products and accessories with nationwide delivery and custom manufacturing options.",
+    url: "https://majidstore.co.in/about",
+    siteName: "Tiranga Army Store",
     images: [
       {
         url: "/logo.png",
-        width: 400,
-        height: 200,
-        alt: "APS Lab Logo",
+        width: 800,
+        height: 400,
+        alt: "Tiranga Army Store Logo",
       },
     ],
     locale: "en_IN",
@@ -39,14 +41,14 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About APS Lab | Leading Medical & Laboratory Equipment Manufacturer in India",
+    title: "About Tiranga Army Store — Flags, Caps & Ceremonial Supplies",
     description:
-      "Learn about APS Lab, a top manufacturer, supplier, and exporter of medical and laboratory equipment in India.",
-    site: "@apslab",
+      "Manufacturer and supplier of national flags, military flags, caps, badges, and ceremonial products. Bulk and custom orders welcome. GST: 03BHOPT0049J1Z5.",
+    site: "@majidstoreco",
     images: [
       {
         url: "/logo.png",
-        alt: "APS Lab Logo",
+        alt: "Tiranga Army Store Logo",
       },
     ],
   },
