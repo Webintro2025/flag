@@ -55,7 +55,7 @@ export function generateMetadata({ params }) {
         siteName: 'APS Lab',
         images: [
           {
-            url: '/logo.png',
+            url: '/logo.jpg',
             width: 400,
             height: 200,
             alt: 'APS Lab Logo',
@@ -71,7 +71,7 @@ export function generateMetadata({ params }) {
         site: '@majidstoreco',
         images: [
           {
-            url: '/logo.png',
+            url: '/logo.jpg',
             alt: 'majid Logo',
           },
         ],

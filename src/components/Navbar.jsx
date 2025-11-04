@@ -138,7 +138,7 @@ Majidmilitarystore@gmail.com           </span>
               <img
                 alt="Neelkanth Ortho Dent logo showing a blue stylized tree with text Neelkanth below it and 'Since 1993' above"
                 className="h-12 sm:h-14 pb-1"
-                src="/logo.png"
+                src="/logo.jpg"
               />
             </a>
             {/* Hamburger right on mobile, hidden on desktop */}

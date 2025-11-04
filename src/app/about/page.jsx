@@ -30,7 +30,7 @@ export const metadata = {
     siteName: "Tiranga Army Store",
     images: [
       {
-        url: "/logo.png",
+        url: "/logo.jpg",
         width: 800,
         height: 400,
         alt: "Tiranga Army Store Logo",
@@ -47,7 +47,7 @@ export const metadata = {
     site: "@majidstoreco",
     images: [
       {
-        url: "/logo.png",
+        url: "/logo.jpg",
         alt: "Tiranga Army Store Logo",
       },
     ],
