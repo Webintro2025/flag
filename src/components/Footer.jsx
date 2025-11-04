@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="max-w-7xl mx-auto px-6 md:px-12 py-10 md:py-14 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
       <div className="md:w-1/4 flex flex-col gap-4 items-start">
         <a href="/" className="cursor-pointer">
-          <img src="/logo.jpg" alt="APS Lab Instruments Logo" className="h-16 w-auto mb-2 animate-fadein" />
+          <img src="/logot.png" alt="APS Lab Instruments Logo" className="h-16 w-auto mb-2 animate-fadein" />
         </a>
         <a href="/" className="cursor-pointer">
           <h4 className="text-3xl font-extrabold leading-none tracking-wide text-black animate-fadein hover:text-orange-600 transition-colors duration-200">
