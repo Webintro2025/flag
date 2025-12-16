@@ -13,8 +13,8 @@ function slugToCamel(str) {
 		.join('');
 }
 
-export default function ServicePage({ params }) {
-	const { slug } = params;
+export default async function ServicePage({ params }) {
+	const { slug } =await  params;
 	const camelSlug = slugToCamel(slug);
 	// Find the service object by camelSlug
 	const serviceObj = serviceData.find(obj => Object.keys(obj)[0].toLowerCase() === camelSlug.toLowerCase());

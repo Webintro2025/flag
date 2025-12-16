@@ -3,8 +3,8 @@ import ContactForm from '@/components/ContactForm';
 import React from 'react';
 
 // Dynamic SEO metadata for each location page
-export function generateMetadata({ params }) {
-  const { slug } = params;
+export async  function generateMetadata({ params }) {
+  const { slug } =  await params;
   // decode slug in case someone used percent-encoding (e.g. 'jammu%20and%20kashmir')
   const slugDecoded = typeof slug === 'string' ? decodeURIComponent(slug) : slug;
   // Resolve the raw location (from list or from slug) then format for display
@@ -80,8 +80,8 @@ export function generateMetadata({ params }) {
   };
 
 
-export default function LocationPage({ params }) {
-  const { slug } = params;
+export default async  function LocationPage({ params }) {
+  const { slug } = await  params;
   const slugDecoded = typeof slug === 'string' ? decodeURIComponent(slug) : slug;
   const rawLocation =
     locations.find((loc) => loc.toLowerCase().replace(/\s+/g, '-') === slugDecoded.toLowerCase()) ||
