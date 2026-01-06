@@ -17,6 +17,7 @@ export const locations = [
 	"Bhopal",
 	"Coimbatore",
 	"Kochi",
+	
 	"Visakhapatnam",
 	"Patna",
 	"Vadodara",
@@ -28,4 +29,7 @@ export const locations = [
 	"Mysuru",
 	"jammu-and-kashmir",
 	"new-delhi",
+	"Malerkotla",
+	"Delhi",
+	"Ludhiana"
 ];
